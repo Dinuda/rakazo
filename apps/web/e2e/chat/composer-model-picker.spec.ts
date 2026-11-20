@@ -94,11 +94,13 @@ test("the chat's model can be changed from the message box once turned on", asyn
 
   const composer = page.getByTestId("composer-bar");
   await expect(composer).toBeVisible();
-  // Off by default.
-  await expect(composer.getByRole("button", { name: /^Model/ })).toHaveCount(0);
+  // On by default.
+  await expect(composer.getByRole("button", { name: /^Model/ })).toBeVisible();
 
   const settings = await openUserSettings(page);
   const toggle = settings.getByTestId("composer-model-picker-toggle");
+  await expect(toggle).toBeChecked();
+  await toggle.click();
   await expect(toggle).not.toBeChecked();
   await toggle.click();
   await expect(toggle).toBeChecked();
