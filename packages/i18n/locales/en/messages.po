@@ -6747,6 +6747,10 @@ msgstr "Loading memory settings…"
 msgid "Loading model catalog…"
 msgstr "Loading model catalog…"
 
+#: apps/web/src/components/pages/PageNotice.tsx
+msgid "Loading page…"
+msgstr "Loading page…"
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "Loading plugins…"
 msgstr "Loading plugins…"

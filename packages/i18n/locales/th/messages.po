@@ -6741,6 +6741,10 @@ msgstr "กำลังโหลดการตั้งค่าความจ
 msgid "Loading model catalog…"
 msgstr "กำลังโหลดแคตตาล็อกโมเดล…"
 
+#: apps/web/src/components/pages/PageNotice.tsx
+msgid "Loading page…"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "Loading plugins…"
 msgstr "กำลังโหลดปลั๊กอิน…"

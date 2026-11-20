@@ -6747,6 +6747,10 @@ msgstr "Hafıza ayarları yükleniyor…"
 msgid "Loading model catalog…"
 msgstr "Model kataloğu yükleniyor…"
 
+#: apps/web/src/components/pages/PageNotice.tsx
+msgid "Loading page…"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "Loading plugins…"
 msgstr "Eklentiler yükleniyor…"
